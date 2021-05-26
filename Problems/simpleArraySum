@@ -1,3 +1,6 @@
+
+
+```javascript
 function simpleArraySum(ar) {
     // Write your code here
     
@@ -7,3 +10,4 @@ function simpleArraySum(ar) {
     }
     return sum
 }
+```
