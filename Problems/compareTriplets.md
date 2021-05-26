@@ -1,3 +1,4 @@
+```node.js
 function compareTriplets(a, b) {
     // Write your code here
     let ap=0
@@ -14,5 +15,5 @@ function compareTriplets(a, b) {
         }
     }
     return [ap,bp]
-
 }
+```
