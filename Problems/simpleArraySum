@@ -1,6 +1,6 @@
 
 
-```javascript
+```node.js
 function simpleArraySum(ar) {
     // Write your code here
     
