@@ -1,0 +1,41 @@
+```node.js
+
+function miniMaxSum(arr) {
+    // Write your code here
+    let min = arr[0]
+    let max = arr[0]
+    let sum = 0
+    
+    for(let i =0;i<arr.length;i++){
+        if(arr[i]<min) min = arr[i]
+        if(arr[i]>max) max = arr[i]
+        sum+=arr[i]
+    }
+    console.log((sum-max) + " " + (sum-min))
+}
+
+
+//code below doesn't work if there's multiples of same element in an array, ie [5,5,5,5,5]
+function miniMaxSum(arr) {
+    // Write your code here
+    let min = arr[0]
+    let max = arr[0]
+    let minSum = 0
+    let maxSum = 0
+    
+    if(arr.length==1){
+        console.log(min + " " + max)
+    }
+    for(let i =0;i<arr.length;i++){
+        if(arr[i]<min) min = arr[i]
+        if(arr[i]>max) max = arr[i]
+    }
+    for(let j=0;j<arr.length;j++){
+        if(arr[j]!=min) minSum+=arr[j]
+        if(arr[j]!=max) maxSum+=arr[j]
+    }
+    console.log(maxSum + " " + minSum)
+
+}
+
+```
