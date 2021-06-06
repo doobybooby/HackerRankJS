@@ -1,7 +1,6 @@
 ```node.js
 function breakingRecords(scores) {
     // Write your code here
-    let ans = ""
     let minCount = 0
     let maxCount = 0
     let minRec = scores[0]
